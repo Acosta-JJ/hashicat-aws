@@ -3,7 +3,7 @@ module "s3_bucket" {
 
   version       = "2.8.0"
   acl           = "private"
-  bucket_prefix = "JoseAcosta"
+  bucket_prefix = "JoseAcosta-chip-course"
   versioning = {
     enabled = true
   }
